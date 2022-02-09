@@ -1,0 +1,21 @@
+# yaml is superset of json, so you can use json here as well
+
+# possible values
+# sort_rules: [rating][year][title][genres]
+# title_regexp: ...
+# movies_path: ...
+# ratings_path: ...
+# cache_path: ...
+# Action|Adventure|Animation|Children's|Comedy|Crime|Documentary|Drama|Fantasy|Film-Noir|Horror|Musical|Mystery|Romance|Sci-Fi|Thriller|War|Western|(no genres listed)
+
+sort_rules: year, rating, title
+movies_path: ./data/medium_movies.csv
+ratings_path: ./data/medium_ratings.csv
+cache_path: ./data/medium_cache.csv
+all_genres: Adventure|Comedy|Action|Drama|Crime|Children|Mystery|Animation|Documentary|Thriller|Horror|Fantasy|Western|Film-Noir|Romance|Sci-Fi|Musical|War|(no genres listed)|IMAX
+
+# sort_rules: year, rating, title
+# movies_path: ./data/small_movies.csv
+# ratings_path: ./data/small_ratings.csv
+# cache_path: ./data/small_cache.csv
+# all_genres: Adventure|Comedy|Action|Drama|Crime|Children|Mystery|Animation|Documentary|Thriller|Horror|Fantasy|Western|Film-Noir|Romance|Sci-Fi|Musical|War|(no genres listed)|IMAX

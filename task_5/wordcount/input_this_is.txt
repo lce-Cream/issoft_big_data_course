@@ -1,0 +1,4 @@
+this is just a test file we will use it for testing purpose
+in particular we want to run map-reduce job first in local mode and then on hadoop cluster
+
+probably there will be other test tasks as well will well a in to is a is will well

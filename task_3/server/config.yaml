@@ -1,0 +1,21 @@
+connection:
+ host: localhost
+ user: root
+ password: root
+ database: movies_database_medium
+ allow_local_infile: True
+#autocommit: true
+
+paths:
+ csv_movies:  ./data/medium_movies.csv
+ csv_ratings: ./data/medium_ratings.csv
+
+ table_movies:          ./sql/table_movies.sql
+ table_ratings:         ./sql/table_ratings.sql
+ table_movies_ratings:  ./sql/table_movies_ratings.sql
+
+ insert_movies:         ./sql/insert_movies.sql
+ insert_ratings:        ./sql/insert_ratings.sql
+ insert_movies_ratings: ./sql/insert_movies_ratings.sql
+
+ procedure: ./sql/sp_get_movies.sql

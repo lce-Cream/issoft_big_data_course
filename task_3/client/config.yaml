@@ -1,0 +1,8 @@
+connection:
+ host: localhost
+ user: user
+ password: user
+ database: movies_database_medium
+
+variables:
+ procedure_name: sp_get_movies
